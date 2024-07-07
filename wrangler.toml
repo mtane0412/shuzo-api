@@ -1,0 +1,8 @@
+name = "shuzo-api"
+main = "src/index.ts"
+compatibility_date = "2024-07-07"
+
+[[kv_namespaces]]
+binding = "VIDEOS"
+id = "8047c764fcdf4f34aaa4841edfb3906f"
+preview_id = "2c359a16e9414dc4bde77255dcb4d362"
