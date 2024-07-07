@@ -1,6 +1,6 @@
 name = "shuzo-api"
 main = "src/index.ts"
-compatibility_date = "2024-07-07"
+compatibility_date = "2024-06-20"
 
 [[kv_namespaces]]
 binding = "VIDEOS"

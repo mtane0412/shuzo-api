@@ -19,6 +19,11 @@ app.get('/v1/videos', async (c) => {
 	return c.json({ videos });
 });
 
+app.get('/v1/videos/', async (c) => {
+	const videos = await getAllVideosFromChannel(c.env.VIDEOS, c.env.API_KEY);
+	return c.json({ videos });
+});
+
 app.get('/v1/videos/random', async (c) => {
 	const video = await getRandomVideoFromChannel(c.env.VIDEOS, c.env.API_KEY);
 	return c.json({ video });
